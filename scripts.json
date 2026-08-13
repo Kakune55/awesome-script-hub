@@ -1,0 +1,7 @@
+[
+  "debian-source-switcher",
+  "install-docker-ce",
+  "expand-lvm-root-universal",
+  "expand-lvm-root",
+  "setup-debian13-pg18-redis"
+]
