@@ -15,11 +15,15 @@
 
   const osIconSlugs = {
     "AlmaLinux": "almalinux",
+    "Alpine Linux": "alpinelinux",
+    "Arch Linux": "archlinux",
     "CentOS": "centos",
     "Debian": "debian",
     "Debian 13": "debian",
     "Fedora": "fedora",
+    "Gentoo": "gentoo",
     "Linux": "linux",
+    "openSUSE": "opensuse",
     "RHEL": "redhat",
     "Rocky Linux": "rockylinux",
     "Ubuntu": "ubuntu"

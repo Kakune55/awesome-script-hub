@@ -1,4 +1,5 @@
 [
+  "addzram",
   "fio-mark",
   "debian-source-switcher",
   "install-docker-ce",

@@ -1,7 +1,7 @@
 ---
 title: fio 磁盘性能测试
 description: 使用 fio 模拟 CrystalDiskMark 的常用项目，测试磁盘顺序与随机读写性能。
-os: ["Debian", "Ubuntu", "RHEL", "CentOS", "Rocky Linux", "AlmaLinux", "Fedora"]
+os: ["Linux"]
 tags: ["fio", "storage", "benchmark"]
 updated: 2026-08-14
 danger: safe
@@ -24,7 +24,7 @@ dangerMessage: 磁盘测试会产生一定的读写负载，建议避开生产�
 
 | 项目 | 要求 |
 | --- | --- |
-| 操作系统 | Debian、Ubuntu、RHEL、CentOS、Rocky Linux、AlmaLinux、Fedora |
+| 操作系统 | Linux；自动安装依赖支持使用 `apt-get` 或 `dnf` 的发行版 |
 | 依赖 | `fio`、`jq`；缺失时自动尝试安装 |
 | 权限 | 目标目录可写；自动安装依赖时需要 root |
 | 空间 | 默认每个任务文件 1 GiB；并行 SSD 测试需要更多可用空间 |

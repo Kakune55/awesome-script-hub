@@ -1,7 +1,7 @@
 ---
 title: 通用 LVM 根卷扩容
 description: 自动识别磁盘、分区、PV、LV 和文件系统，扩展虚拟机根卷。
-os: ["Debian", "Ubuntu", "RHEL", "CentOS", "Rocky Linux", "AlmaLinux", "Fedora"]
+os: ["Linux"]
 tags: ["lvm", "storage"]
 updated: 2026-08-12
 danger: danger
@@ -10,7 +10,7 @@ dangerMessage: 该脚本会修改磁盘分区、LVM 元数据和根文件系统�
 
 # 通用 LVM 根卷扩容
 
-自动识别根目录所在的 LV、VG、PV、物理磁盘和分区，并扩展分区、LVM 与文件系统。支持 Debian、Ubuntu、RHEL、CentOS、Rocky、AlmaLinux 和 Fedora。
+自动识别根目录所在的 LV、VG、PV、物理磁盘和分区，并扩展分区、LVM 与文件系统。适用于采用受支持 LVM 布局和文件系统的 Linux；依赖自动安装覆盖 Debian 系与 RHEL 系发行版。
 
 > 这是高风险磁盘操作。执行前必须创建虚拟机快照或完整备份，并确认宿主机已经扩大虚拟磁盘容量。
 
