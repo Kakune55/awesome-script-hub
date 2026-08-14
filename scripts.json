@@ -1,4 +1,5 @@
 [
+  "fio-mark",
   "debian-source-switcher",
   "install-docker-ce",
   "expand-lvm-root-universal",
