@@ -1,4 +1,5 @@
 [
+  "install-caddy-custom",
   "addzram",
   "fio-mark",
   "debian-source-switcher",
